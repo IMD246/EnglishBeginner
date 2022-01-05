@@ -1,3 +1,4 @@
+import 'package:english_beginner/wrapper.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -5,9 +6,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Container(
-        child: Text('asd'),
-      ),
+      home: Wrapper(),
     );
   }
 }
